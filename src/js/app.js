@@ -1,7 +1,3 @@
-import * as flsFunctions from "./modules/functions.js";
-
-flsFunctions.isWebp()
-
 $(document).ready(function(){
     $('.subheader-slider ').slick({
         prevArrow: '<button class="slide-arrow next-arrow"><i class="fa-solid fa-angle-left"></i></button>',
