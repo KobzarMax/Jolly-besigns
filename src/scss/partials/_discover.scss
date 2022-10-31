@@ -40,7 +40,7 @@
     padding-top: 223px;
     padding-bottom: 221px;
     gap: 24px;
-    background-image: url('../../img/Discover-block-slider-bg.png');
+    background-image: url('../img/Discover-block-slider-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -55,7 +55,7 @@
   }
 
   .discover-block-title::before {
-    content: url('../../img/title-decor.svg');
+    content: url('../img/title-decor.svg');
     position: absolute;
     left: -50px;
     top: -40px;
