@@ -1,0 +1,72 @@
+.follow_us {
+    position: relative;
+    margin-top: 120px;
+  }
+.follow_us-dec1, .follow_us-dec2{
+  position: absolute;
+}
+
+.follow_us-dec1 {
+  right: 0;
+  top: 112px;
+}
+.follow_us-dec2 {
+  left: 101px;
+}
+
+.follow_us-title, .follow_us-of-title {
+  text-align: center;
+}
+.follow_us-title {
+  color: #105393;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: 'DM Serif Display';
+  margin: 0 auto;
+  width: fit-content;
+  position: relative;
+}
+.follow_us-title::before {
+  content: url('../../img/title-decor.svg');
+  position: absolute;
+  top: -50px;
+  left: -40px;
+}
+.follow_us-of-title {
+  color: #E86E6E;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin: 32px 0;
+}
+.follow_us-inner {
+  width: 1070px ;
+  margin: 0 auto;
+}
+.follow_ua-insta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px ;
+  margin-bottom: 45px;
+  & .fa-instagram {
+    font-size: 32px;
+    color: #FF8F8F;
+  }
+}
+
+.follow_ua-insta-id {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #105393;
+}
+.follow_us-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}

@@ -1,0 +1,59 @@
+.retailer-stores-title {
+    color: #E86E6E;
+    text-align: center;
+    font-size: 64px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+  }
+  .retailer-stores--wrapper{
+    margin: calc(120/1440*100%) calc(80/1440*100%) calc(120/1440*100% + 15px);
+  }
+  .stores-slider-item {
+    margin-top: 82px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+  .stores-inner--item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .miniQs {
+    margin-left: calc(63/1280*100%);
+  }
+  
+  .retailer_stores-block--slider{
+    //display: none;
+  }
+  .retailer_stores-block--slider .draggable  {
+    margin-bottom: 80px;
+  }
+  
+  .retailer_stores-block--slider .slick-initialized .slick-slider .slick-dotted {
+    position: relative;
+  }
+  .retailer_stores-block--slider .slick-dots {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%);
+    gap: 8px;
+  }
+  .retailer_stores-block--slider  li  {
+    border-radius: 50%;
+    border: none;
+    background: #FF8F8F;
+    opacity: 0.3;
+    width: 15px;
+    height: 15px;
+  }
+  .retailer_stores-block--slider  .slick-active {
+    color:  #FF8F8F;
+    opacity: 1;
+  }
+  
+  .retailer_stores-block--slider .slick-dots button {
+    visibility: hidden;
+  }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+@@include('partials/head.html',{
+    "title": "Main page"
+})
+<body>
+    @@include('partials/subheader.html')
+    @@include('partials/header.html')
+
+    <main>
+        @@include('./partials/discover.html')
+        @@include('./partials/quiet-books.html')
+        @@include('./partials/books-made.html')
+        @@include('./partials/bestsellers.html')
+        @@include('./partials/review.html')
+        @@include('./partials/meet.html')
+        @@include('./partials/categories.html')
+        @@include('./partials/follow-us.html')
+        @@include('./partials/retailer-stories.html')
+    </main>
+
+    @@include('partials/footer.html')
+
+
+
+    <script src="https://kit.fontawesome.com/e50b17d262.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./js/modules/slick.min.js"></script>
+    <script src="./js/modules/sliders.js"></script>
+    <script src="./js/app.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.how-our-books-made_wrapper {
+    margin: calc(120/1440*100%) calc(80/1440*100%);
+  }
+  .our-books-made_title {
+    color:#E86E6E;
+    text-align: center;
+    margin-bottom: calc(48/1280*100%);
+    font-family: 'DM Serif Display';
+    font-size: 64px;
+    font-weight: 400;
+  }
+  .our-books-made_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .our-books-made_item-Of-title {
+    margin-bottom: 8px;
+    padding: 0;
+    letter-spacing: 0.04em;
+    color:  #414249;
+    font-weight: 600;
+    text-align: center;
+  }
+  .our-books-made_sub-item {
+    margin-bottom: 33px;
+  }

@@ -1,0 +1,83 @@
+.shop-our-bestseller__title {
+    color: #e86e6e;
+    font-size: 64px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    text-align: center;
+  }
+  .bestseller-slider-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;  
+    margin-right:  32px;
+    width: 296px;
+    & .bestseller-item-icon {
+      margin-bottom: 8px;
+    }
+    & .seller-book--descr {
+      margin-bottom: 8px;
+    }
+    & .seller-book-price {
+      margin-bottom: 16px;
+    }
+    & span {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #414249;
+    }
+    & .seller-book-price {
+      font-weight: 600;
+    }
+  }
+  .seller-book-heart {
+    background-color:#FF8F8F;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 16px;
+    right: 17px;
+    font-size: 24px;
+    z-index: 3;
+  }
+  
+  .bestseller-slider .slick-initialized .slick-slider .slick-dotted {
+    position: relative;
+  }
+  .bestseller-slider .slick-dots {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%);
+    gap: 8px;
+    
+  }
+  .bestseller-slider  li  {
+    border-radius: 50%;
+    border: none;
+    background: #FF8F8F;
+    opacity: 0.3;
+    width: 15px;
+    height: 15px;
+  }
+  .bestseller-slider .slick-active {
+    color:  #FF8F8F;
+    opacity: 1;
+  }
+  
+  .bestseller-slider .slick-dots button {
+    visibility: hidden;
+  }
+  .bestseller-slider  .slick-list {
+    padding: 0;
+    margin: 48px 0;
+  }

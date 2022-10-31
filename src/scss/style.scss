@@ -1,0 +1,23 @@
+@import "./partials/subheader";
+@import "./partials/header";
+@import "./partials/discover";
+@import "./partials/quiet-books";
+@import "./partials/books-made";
+@import "./partials/review";
+@import "./partials/meet";
+@import "./partials/categories";
+@import "./partials/common";
+@import "./partials/btn";
+@import "./partials/bestellers";
+@import "./partials/follow-us";
+@import "./partials/retailer-stores";
+@import "./partials/footer";
+@import "./partials/form";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Poppins', sans-serif;
+}

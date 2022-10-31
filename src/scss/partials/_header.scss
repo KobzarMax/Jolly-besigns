@@ -1,0 +1,137 @@
+.header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #414249;
+  }
+  .main-header--icons {
+    font-size: 24px ;
+  }
+  .main-header--icons:hover {
+    color: #FF8F8F;
+  }
+  .icon-icon-user {
+    border: 1px solid black;
+  }
+  .icon-icon-user:hover {
+    border: 1px solid #FF8F8F;
+  }
+  
+  .header-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 1.66% 5.55% ;
+  }
+  .header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .lang-choise-item {
+    padding: 8px 16px ;
+    color: #414249;
+  }
+  .drop-down {
+    align-items: center;
+    justify-content: center;
+  }
+  .drop-down--choise{
+  
+    position: relative;
+  }
+  .lang-sub--menu{
+    border: 1px solid #E2E2E2;
+    display: none;
+    position: absolute;
+  }
+  .drop-down--choise:hover .lang-sub--menu {
+    display: block;
+  }
+  .header-main--item {
+    display: flex;
+    & span {
+      color: #414249;
+    }
+  }
+  .header-main--item  .phone-number {
+    color: #FF8F8F;
+    margin-left: 2px;
+  }
+  .header-main-menu {
+    display: flex;
+    gap: 40px;
+  }
+  .call {
+    margin-right: 88px;
+  }
+  .like-counter {
+    display: flex;
+    align-items: center;
+    & .like-counter--number {
+      color: white;
+    }
+  }
+  .like-counter--number {
+    margin-left: 6px;
+    width: 24px;
+    height: 24px;
+    background-color: pink;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-menu--list {
+    margin-top: 24px;
+  }
+  .header-menu--item a {
+     color: #414249;
+   }
+  .header-menu--item a:hover {
+    color: #FF8F8F;
+  }
+
+  .header-menu--item {
+    display: inline-block;
+    margin-right: 82px;
+  }
+  
+  .drop-down {
+    position: relative;
+  }
+  .dropdown-content {
+    position: absolute;
+    display: none;
+    margin-top:24px ;
+    padding:  16px 16px 0 16px ;
+    border: 1px solid #E2E2E2;
+    background-color: #fff;
+    z-index: 10;
+  }
+  .drop-down:hover .dropdown-content {
+    display: block;
+  
+  }
+  
+  .dropdown-content--item {
+    text-transform: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #414249;
+    width: 150px;
+  
+  
+  }
+  .dropdown-content li {
+    padding-bottom: 16px;
+  }
+  .fa-caret-down {
+    color: pink;
+    margin-left: 8px;
+  }

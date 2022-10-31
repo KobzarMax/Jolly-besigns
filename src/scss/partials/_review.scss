@@ -1,0 +1,113 @@
+.review {
+    margin-top: 135px;
+  }
+  .review-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 80px 130px ;
+  }
+  .review-main--picture {
+    max-width: 300px;
+    margin-bottom: 40px;
+  }
+  .review-item--inner {
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .review-sub-title {
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 18px;
+  }
+  .review-left-item {
+    background-color: #FF8F8F;
+  }
+  .review-right-item {
+    background-color: #CEE8FF;
+  }
+  .review-left-sub-title {
+    color: #FFFFFF; 
+  }
+  .review-right-sub-title {
+    color: #105393; 
+  }
+  .review-title {
+    font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  margin-bottom: 16px;
+  }
+  .review-title--left {
+    color: #FFFFFF;
+  }
+  .review-title--right {
+    color: #105393;
+  }
+  .review-text {
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  }
+  .review-text-right {
+    color: #105393;
+  }
+  .review-text-left {
+    color: #FFFFFF;
+  }
+   .review-stars {
+    margin-bottom: 18px;
+  }
+  .stars {
+    color: #FFE4BB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+  }
+  .review-right-item .stars {
+    color: #F2994A;
+  }
+  .review-slider .slick-arrow {
+    position: absolute;
+    z-index: 8;
+    top: 50%;
+    border: none;
+    background-color: transparent;
+    font-size: 48px;
+    color: #FFE4BB;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  .review-slider {
+    position: relative;
+    & .next-arrow {
+      left: 8%;
+    }
+    & .prev-arrow {
+      right: 8%;
+      color: #105393;
+    }
+  }
+
+  .review-slider .review_prev{
+    top: 48%;
+    left: 80px;
+  }
+  .review-slider .review_next{
+    top: 48% ;
+    right:80px;
+  } 

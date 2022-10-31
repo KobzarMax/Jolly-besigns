@@ -1,0 +1,48 @@
+.our_categories-bg {
+    background: #CEE8FF;
+  }
+  .our_categories {
+    padding: 120px 0 ;
+    position: relative;
+  }
+  .our_categories-title {
+    color: #105393;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    font-size: 64px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    width: fit-content;
+    position: relative;
+  }
+  .our_categories-title::after {
+    content: url('../../img/title-decor.svg');
+    position: absolute;
+    top: -40px;
+    right: -50px;
+    transform: rotate(70deg);
+  }
+  
+  .our_categories-decor {
+    position: absolute;
+    top: 105px;
+    right: 30%;
+  }
+  .our_categories-slider--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    min-width: 296px;
+    margin-right: 32px;
+  }
+  .our_categories_href-oftitle {
+    font-size: 32px;
+    font-weight: 600;
+    color: #105393;
+  }
+  .our_categories-slider {
+    padding: 0 80px;
+  
+  }

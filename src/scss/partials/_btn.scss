@@ -1,0 +1,100 @@
+.btn {
+	display: inline-block;
+	height: 44px;
+	color: $colorBlack;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: Roboto, sans-serif;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	padding: 0 20px;
+	transition: all .3s ease;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	border-radius: 38px;
+	text-transform: uppercase;
+
+	&:hover,
+	&:active {
+		color: $colorWhite;
+		outline: none;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&.disabled,
+	&[disabled] {
+		pointer-events: none;
+		opacity: .5;
+		cursor: auto;
+	}
+}
+
+.footer-btn {
+	width: 100%;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #E86E6E;
+	background:#FFE4BB;
+}
+.discover-btn-Shop_now , .discover-btn-About_us {
+	height: 56px;
+	width: 180px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.04em;
+}
+.discover-btn-Shop_now  {
+	background: #FF8F8F;
+	color: white;
+}
+.discover-btn-About_us {
+    background:#FFE4BB ;
+	color: #E86E6E;
+}
+.seller-book_add-to-btn {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FF8F8F;
+	padding: 0 31px;
+	border: 1px solid  #FF8F8F ;
+	background-color: white;
+}
+.seller-book_add-to-btn:hover {
+	background-color: #FF8F8F;
+}
+.meet_our_team-learn_more-btn {
+	background-color: #FF8F8F;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    width: 220px;
+    margin: 24px 0 120px;
+    margin-left: 42.36%;
+}

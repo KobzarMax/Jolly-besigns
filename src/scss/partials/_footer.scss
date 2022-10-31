@@ -1,0 +1,99 @@
+.footer {
+	background-color: #FF8F8F;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1440px;
+	display: flex;
+	flex-direction: column;
+
+}
+.footer-top__inner {
+	display: flex;
+	justify-content: space-between;
+	padding: 5.5% 5.5% 4%;
+	border-bottom: 1px solid #F6ADAD ;
+}
+.footer-top__item {
+	width: 23.2%;
+}
+h4 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+	padding-bottom: 16px;
+}
+.footer-top__content {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	color: #FFFFFF;
+	letter-spacing: .05em;
+	& li {
+		padding-bottom: 8px;
+	}
+}
+.footer-form , .footer-btn {
+	margin-bottom: 16px;
+}
+.footer-top--account__links {
+	display: flex;
+	align-items: center;
+	& .create-link {
+		padding-right: 8.1%;
+	}
+}
+
+
+.create-link  a , .b2b-link a  {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
+
+.footer-bottom {
+	margin: 2.2% 5.5% 2.77%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer-payment--links {
+	display: flex;
+}
+.payment--links---inner + .payment--links---inner {
+	margin-left: 8px;
+}
+.footer-Jolly--Designs {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.footer-social--links {
+	display: flex;
+	align-items: center;
+	max-height: 20px;
+}
+.social--links---inner{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+.social--links---inner + .social--links---inner {
+	margin-left: 24px;
+}
+
+.footer-top__title {
+color: #FFFFFF;
+text-align: start;
+}

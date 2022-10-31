@@ -1,0 +1,116 @@
+.quiet_books-container {
+  overflow: hidden;
+}
+.quiet_books {
+  background-color: #CEE8FF;
+}
+.quiet_books-inner {
+  margin: calc(120/1440*100%) calc(80/1440*100%) calc((120/1440*100%) + 36px);
+  position: relative;
+}
+.quiet_books-text {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 32px;
+  color: #105393;
+  position: absolute;
+  bottom: 165px;
+  right: 125px;
+}
+
+.quiet_books-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.quiet_books-title {
+  color: #105393;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  position: relative;
+  width: fit-content;
+}
+.quiet_books-title::after {
+  content: url('../../img/title-decor.svg');
+    position: absolute;
+    right: -50px;
+    top: -40px;
+    transform: rotate(70deg);
+}
+.quiet_books-text {
+  margin-top: 10px;
+}
+.books-item--title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #414249;
+}
+.quiet_books-items {
+  margin-top: 64px;
+}
+.quiet_books-item {
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 365px;
+  height: 365px;
+  position: relative;
+  z-index: 1;
+}
+.books-item--wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 8px;
+  border: dashed #FF8F8F 1px ;
+  height: 349px;
+  width: 349px;
+  gap: 8px;
+}
+.books-item--icons {
+  width: 96px;
+  height: 96px;
+}
+.books-item--text {
+  max-width: 253px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #414249 ;
+  text-align: center;
+}
+.easy_to_carry {
+  transform: translateY(106px);
+}
+.Sustainability {
+  transform: translateY(51px);
+}
+
+.Long_lasting-products {
+  transform: translateY(36px)  translateX(150px);
+}
+.Versatile_toys {
+  transform: translateY(38px)  translateX(-152px);
+}
+.quiet_books_bg {
+  position: absolute;
+  bottom: -156px;
+  right: -80px;
+ max-width: 100%;
+ max-height: 100%;
+
+}
