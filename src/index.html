@@ -10,13 +10,18 @@
     @@include('partials/header.html')
 
     <main>
+        <div class="mobile-categories">
+            @@include('./partials/categories.html')
+        </div>
         @@include('./partials/discover.html')
         @@include('./partials/quiet-books.html')
         @@include('./partials/books-made.html')
         @@include('./partials/bestsellers.html')
         @@include('./partials/review.html')
         @@include('./partials/meet.html')
-        @@include('./partials/categories.html')
+        <div class="categories-wrapper">
+            @@include('./partials/categories.html')
+        </div>
         @@include('./partials/follow-us.html')
         @@include('./partials/retailer-stories.html')
     </main>
@@ -27,8 +32,6 @@
 
     <script src="https://kit.fontawesome.com/e50b17d262.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="./js/modules/slick.min.js"></script>
-    <script src="./js/modules/sliders.js"></script>
     <script src="./js/app.min.js"></script>
 </body>
 </html>

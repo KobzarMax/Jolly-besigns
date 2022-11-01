@@ -1,7 +1,10 @@
 .follow_us {
     position: relative;
     margin-top: 120px;
-  }
+    & .slick-track {
+      gap: 8px;
+    }
+}
 .follow_us-dec1, .follow_us-dec2{
   position: absolute;
 }
@@ -27,7 +30,7 @@
   position: relative;
 }
 .follow_us-title::before {
-  content: url('../../img/title-decor.svg');
+  content: url('../img/title-decor.svg');
   position: absolute;
   top: -50px;
   left: -40px;
@@ -40,7 +43,7 @@
   margin: 32px 0;
 }
 .follow_us-inner {
-  width: 1070px ;
+  max-width: 1070px ;
   margin: 0 auto;
 }
 .follow_ua-insta {
@@ -69,4 +72,45 @@ color: #105393;
   justify-content: center;
   align-items: center;
   gap: 8px;
+}
+
+@media (max-width: 1200px) {
+  .follow_us-of-title {
+    max-width: 80%;
+    margin: 32px auto;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .follow_us-title {
+    font-size: 48px;
+  }
+  .decor-item {
+    display: none;
+  }
+  .follow_us-title::before {
+    content: url('../img/title-decor.svg');
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    transform: scale(0.8);
+  }
+  .follow_us-of-title {
+    max-width: 100%;
+    margin: 32px auto;
+    font-size: 24px;
+  }
+  .follow_us {
+    margin: 70px;
+  }
+}
+
+@media (max-width: 568px) {
+  .follow_us-title {
+    font-size: 32px;
+  }
+  .follow_us-of-title {
+    margin: 16px auto;
+  }
 }

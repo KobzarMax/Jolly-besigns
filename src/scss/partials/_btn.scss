@@ -18,7 +18,6 @@
 
 	&:hover,
 	&:active {
-		color: $colorWhite;
 		outline: none;
 	}
 
@@ -82,6 +81,7 @@
 }
 .seller-book_add-to-btn:hover {
 	background-color: #FF8F8F;
+	color: #FFFFFF;
 }
 .meet_our_team-learn_more-btn {
 	background-color: #FF8F8F;
@@ -97,4 +97,34 @@
     width: 220px;
     margin: 24px 0 120px;
     margin-left: 42.36%;
+}
+.primary:hover {
+	background-color: #E86E6E;
+}
+.secondary:hover {
+	background-color: #FFDCA7;
+}
+
+@media (max-width: 768px) {
+	.meet_our_team-learn_more-btn {
+		margin-left: 34.38%;
+	}
+}
+
+@media (max-width: 530px) {
+	.discover-btn-Shop_now, .discover-btn-About_us {
+		width: 140px;
+	}
+}
+
+@media (max-width: 480px) {
+	.meet_our_team-learn_more-btn {
+		margin-left: 27.38%;
+	}
+}
+
+@media (max-width: 372px) {
+	.meet_our_team-learn_more-btn {
+		margin-left: 19.38%;
+	} 
 }

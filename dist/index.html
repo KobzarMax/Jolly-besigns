@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@100;200;300;400;500;600;700&display=swap&_v=20221031191325" rel="stylesheet">
-    <link rel="stylesheet" href="css/libs.min.css?_v=20221031191325">
-    <link rel="stylesheet" href="css/style.min.css?_v=20221031191325">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <title>Main page</title>
 </head>
 <body>
@@ -30,8 +30,6 @@
                     <span class="icon"><img src="img/icon-guarantee.svg" alt="icon"></span>
                     <span class="subheader-item--text">6 Months guarantee</span>
                 </a>
-            </div>
-            <div class="subheader-slider--item">
                 <a class="slider-inner" href="#">
                     <span class="icon"><img src="img/icon-heart.svg" alt="icon"></span>
                     <span class="subheader-item--text">The favourite of XXXX partners</span>
@@ -50,11 +48,77 @@
 </div>
     <header class="header">
     <div class="container">
-        <div class="header-wrapper">
+        <div id="myHeader" class="header-wrapper">
+            <div class="menu-icon">
+                <span></span>
+            </div>
+            <div class="mobile-menu">
+                <div class="mobile-head">
+                    <ul class="mobile-head-list">
+                        <li class="main-menu--item head-list-item"><a href="#"><img class="icon-icon-user main-header--icons" src="img/user.svg" alt="icon-cart"></a></li>
+                        <li class="mobile-head-list-item head-list-item middle-item"><a href="tel:+4961729452910" class="mobile-list-link"><span class="icon"><img src="img/phone.svg" alt="#"></span></a></li>
+                        <li class="mobile-head-list-item head-list-item">
+                            <div class="drop-down--choise">
+                                <ul class="lang-choise-menu">
+                                    <li><a class="lang-choise-item" href="#">EN</a></li>
+                                    <ul class="lang-sub--menu">
+                                        <li class="lang-sub--menu-item"><a class="lang-choise-item" href="#">FR</a></li>
+                                        <li class="lang-sub--menu-item"><a class="lang-choise-item" href="#">DE</a></li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobile-nav">
+                    <div class="mobule-nav-item">
+                        <button type="button" class="collapsible">Products <i class="fa-solid fa-caret-down"></i></button>
+                        <div class="content">
+                            <ul class="collapse-content">
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Quiet Books</a></li>
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Mini Quiet Books</a></li>
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Booklets</a></li>
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Wooden Toys</a></li>
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Wall decorations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobile-nav-item">
+                        Child Development
+                    </div>
+                    <div class="mobile-nav-item">
+                        What are Quiet Books
+                    </div>
+                    <div class="mobile-nav-item">
+                        Blog
+                    </div>
+                    <div class="mobule-nav-item">
+                        <button type="button" class="collapsible">About Us <i class="fa-solid fa-caret-down"></i></button>
+                        <div class="content">
+                            <ul class="collapse-content">
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">About Us 1</a></li>
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">About Us 2</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobule-nav-item">
+                        <button type="button" class="collapsible">Support <i class="fa-solid fa-caret-down"></i></button>
+                        <div class="content">
+                            <ul class="collapse-content">
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Support 1</a></li>
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Support 2</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobile-nav-item">
+                        Where to Find Us
+                    </div>
+                </div>
+            </div>
             <div class="header-main">
                 <div class="header-main--item">
                     <a href="tel: +49 61729452910" class="call" >
-                        <span class="icon"><img src="img/phone.svg" alt=""></span>
+                        <span class="icon"><img src="img/phone.svg" alt="#"></span>
                         <span class="phone-number"> +49 61729452910</span>
                     </a>
                     <div class="drop-down--choise">
@@ -67,20 +131,50 @@
                         </ul>
                     </div>
                 </div>
+                <div class="header-mobile-main-wrapper">
+                    <p class="main-menu--item">
+                        <a href="#">
+                            <img class="icon-icon-search main-header--icons" src="img/search.svg" alt="icon-cart">
+                        </a>
+                    </p>
+                </div>
+                <div class="header-mobile-main-wrapper">
+                    <img src="img/logo.png" alt="Jolly-design logo" class="logo">
+                </div>
                 <div class="header-main--item">
-                    <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Jolly-design logo" class="logo"></picture>
+                    <img src="img/logo.png" alt="Jolly-design logo" class="logo">
+                </div>
+                <div class="header-mobile-main-wrapper">
+                    <ul class="header-main-menu">
+                        <li class="main-menu--item"><div class="like-counter">
+                            <a href="#" class="header-choused-link">
+                                <img class="icon-heart main-header--icons" src="img/empty-heart.svg" alt="icon-heart">
+                                <span class="like-counter--number">6</span>
+                            </a>
+                        </div></li>
+                        <li class="main-menu--item"><div class="like-counter">
+                            <a href="#" class="header-choused-link">
+                                <img class="icon-basket main-header--icons" src="img/cart.svg" alt="icon-cart">
+                                <span class="like-counter--number">2</span>
+                            </a>
+                        </div></li>
+                    </ul>
                 </div>
                 <div class="header-main--item">
                     <ul class="header-main-menu">
                         <li class="main-menu--item"><a href="#"><img class="icon-icon-search main-header--icons" src="img/search.svg" alt="icon-cart"></a></li>
                         <li class="main-menu--item"><a href="#"><img class="icon-icon-user main-header--icons" src="img/user.svg" alt="icon-cart"></a></li>
                         <li class="main-menu--item"><div class="like-counter">
-                            <img class="icon-heart main-header--icons" src="img/empty-heart.svg" alt="icon-heart">
-                            <span class="like-counter--number">6</span>
+                            <a href="#" class="header-choused-link">
+                                <img class="icon-heart main-header--icons" src="img/empty-heart.svg" alt="icon-heart">
+                                <span class="like-counter--number">6</span>
+                            </a>
                         </div></li>
-                        <li class="main-menu--item"><div class="like-counter">  
-                            <img class="icon-basket main-header--icons" src="img/cart.svg" alt="icon-cart">
-                            <span class="like-counter--number">2</span>
+                        <li class="main-menu--item"><div class="like-counter">
+                            <a href="#" class="header-choused-link">
+                                <img class="icon-basket main-header--icons" src="img/cart.svg" alt="icon-cart">
+                                <span class="like-counter--number">2</span>
+                            </a>
                         </div></li>
                     </ul>
                 </div>
@@ -132,42 +226,84 @@
 </header>
 
     <main>
+        <div class="mobile-categories">
+            <div class="our_categories-bg">
+    <div class="container">
+      <div class="our_categories">
+        <h1 class="our_categories-title">Our Categories</h1>
+        <div class="our_categories-slider">
+  
+  
+          <div class="our_categories-slider--item">
+            <a class="our_categories_href" href="#"><img class="categories_img" src="img/quiet_books_image.png"
+                alt="categories_img"></a>
+            <h3 class="our_categories_href-oftitle">Quiet Books</h3>
+          </div>
+  
+          <div class="our_categories-slider--item">
+            <a class="our_categories_href" href="#"><img class="categories_img" src="img/mini_quiet_books_image.png"
+                alt="categories_img"></a>
+            <h3 class="our_categories_href-oftitle">Mini Quiet Books</h3>
+          </div>
+  
+          <div class="our_categories-slider--item">
+            <a class="our_categories_href" href="#"><img class="categories_img" src="img/booklets_image.png"
+                alt="categories_img"></a>
+            <h3 class="our_categories_href-oftitle">Booklets</h3>
+          </div>
+  
+          <div class="our_categories-slider--item">
+            <a class="our_categories_href" href="#"><img class="categories_img" src="img/toys_image.png"
+                alt="categories_img"></a>
+            <h3 class="our_categories_href-oftitle">Wooden Toys</h3>
+          </div>
+  
+          <div class="our_categories-slider--item">
+            <a class="our_categories_href" href="#"><img class="categories_img" src="img/decorations_image.png"
+                alt="categories_img"></a>
+            <h3 class="our_categories_href-oftitle">Wall decorations</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
         <div class="discover">
     <div class="container discover-block--container">
         <div class="discover-block--slider">
             <div class="discover-block-inner">
                 <h1 class="discover-block-title">Discover the new way of playing</h1>
                 <div class="discover-block-btns">
-                    <button class="discover-btn-Shop_now btn">Shop now</button>
-                    <button class="discover-btn-About_us btn">About us</button>
+                    <button class="discover-btn-Shop_now btn primary">Shop now</button>
+                    <button class="discover-btn-About_us btn secondary">About us</button>
                 </div>
             </div>
             <div class="discover-block-inner">
                 <h1 class="discover-block-title">Discover the new way of playing</h1>
                 <div class="discover-block-btns">
-                    <button class="discover-btn-Shop_now btn">Shop now</button>
-                    <button class="discover-btn-About_us btn">About us</button>
+                    <button class="discover-btn-Shop_now btn primary">Shop now</button>
+                    <button class="discover-btn-About_us btn secondary">About us</button>
                 </div>
             </div>
             <div class="discover-block-inner">
                 <h1 class="discover-block-title">Discover the new way of playing</h1>
                 <div class="discover-block-btns">
-                    <button class="discover-btn-Shop_now btn">Shop now</button>
-                    <button class="discover-btn-About_us btn">About us</button>
+                    <button class="discover-btn-Shop_now btn primary">Shop now</button>
+                    <button class="discover-btn-About_us btn secondary">About us</button>
                 </div>
             </div>
             <div class="discover-block-inner">
                 <h1 class="discover-block-title">Discover the new way of playing</h1>
                 <div class="discover-block-btns">
-                    <button class="discover-btn-Shop_now btn">Shop now</button>
-                    <button class="discover-btn-About_us btn">About us</button>
+                    <button class="discover-btn-Shop_now btn primary">Shop now</button>
+                    <button class="discover-btn-About_us btn secondary">About us</button>
                 </div>
             </div>
             <div class="discover-block-inner">
                 <h1 class="discover-block-title">Discover the new way of playing</h1>
                 <div class="discover-block-btns">
-                    <button class="discover-btn-Shop_now btn">Shop now</button>
-                    <button class="discover-btn-About_us btn">About us</button>
+                    <button class="discover-btn-Shop_now btn primary">Shop now</button>
+                    <button class="discover-btn-About_us btn secondary">About us</button>
                 </div>
             </div>
         </div>
@@ -186,7 +322,7 @@
                 <ul class="quiet_books-list">
                     <li class="quiet_books-item">
                         <div class="books-item--wrapper">
-                                <picture><source srcset="img/lamp-icons.webp" type="image/webp"><img class="books-item--icons" src="img/lamp-icons.png" alt="lamp-icon" class="books-item--img"></picture>
+                                <img class="books-item--icons" src="img/lamp-icons.png" alt="lamp-icon" class="books-item--img">
                                 <h4 class="books-item--title">Learning</h4>
                                 <p class="books-item--text">Our pediatrician- <br>
                                     recommended products are a<br>
@@ -198,7 +334,7 @@
                     </li>
                     <li class="quiet_books-item easy_to_carry">
                         <div class="books-item--wrapper">
-                                <picture><source srcset="img/easy_to_carry-icon.webp" type="image/webp"><img class="books-item--icons" src="img/easy_to_carry-icon.png" alt="lamp-icon" class="books-item--img"></picture>
+                                <img class="books-item--icons" src="img/easy_to_carry-icon.png" alt="lamp-icon" class="books-item--img">
                                 <h4 class="books-item--title">Easy to carry</h4>
                                 <p class="books-item--text">Our light-weight and flexible books<br>
                                     will keep your children busy for your<br>
@@ -208,7 +344,7 @@
                     </li>
                     <li class="quiet_books-item Sustainability">
                         <div class="books-item--wrapper">
-                                <picture><source srcset="img/Sustainability-icon.webp" type="image/webp"><img class="books-item--icons" src="img/Sustainability-icon.png" alt="lamp-icon" class="books-item--img"></picture>
+                                <img class="books-item--icons" src="img/Sustainability-icon.png" alt="lamp-icon" class="books-item--img">
                                 <h4 class="books-item--title">Sustainability</h4>
                                 <p class="books-item--text">All of our products are plastic-<br>
                                     free and fairly produced.</p>
@@ -216,7 +352,7 @@
                     </li>
                     <li class="quiet_books-item Long_lasting-products">
                         <div class="books-item--wrapper">
-                                <picture><source srcset="img/Long_lasting-products.webp" type="image/webp"><img class="books-item--icons" src="img/Long_lasting-products.png" alt="lamp-icon" class="books-item--img"></picture>
+                                <img class="books-item--icons" src="img/Long_lasting-products.png" alt="lamp-icon" class="books-item--img">
                                 <h4 class="books-item--title">Long-lasting products</h4>
                                 <p class="books-item--text">Our high-quality products can<br>
                                     be passed on from generation<br>
@@ -225,7 +361,7 @@
                     </li>
                     <li class="quiet_books-item Versatile_toys">
                         <div class="books-item--wrapper">
-                                <picture><source srcset="img/Versatile_toys-icon.webp" type="image/webp"><img class="books-item--icons" src="img/Versatile_toys-icon.png" alt="lamp-icon" class="books-item--img"></picture>
+                                <img class="books-item--icons" src="img/Versatile_toys-icon.png" alt="lamp-icon" class="books-item--img">
                                 <h4 class="books-item--title">Versatile toys</h4>
                                 <p class="books-item--text">Our products can be played in<br>
                                     countless unimaginable ways.<br>
@@ -234,10 +370,9 @@
                                     books.</p>
                         </div>
                     </li>
-
                 </ul>
             </div>
-            <picture><source srcset="img/quiet_books_bg.webp" type="image/webp"><img class="quiet_books_bg" src="img/quiet_books_bg.png" alt="quiet_books_bg"></picture>
+            <img class="quiet_books_bg" src="img/quiet_books_bg.png" alt="quiet_books_bg">
         </div>
     </div>
 </div>
@@ -248,30 +383,30 @@
         <div class="our-books-made_item">
             <div class="our-books-made_sub-item">
                 <h4 class="our-books-made_item-Of-title">Step 1</h4>
-                <p class="ur-books-made_item-text books-item--text ">Lorem Ipsum is simply <br>
-                    dummy text of the printing<br>
+                <p class="ur-books-made_item-text books-item--text ">Lorem Ipsum is simply 
+                    dummy text of the printing
                     and typesetting industry</p>
             </div>
             <div class="our-books-made_sub-item">
                 <h4 class="our-books-made_item-Of-title">Step 3</h4>
-                <p class="ur-books-made_item-text books-item--text ">Lorem Ipsum is simply <br>
-                    dummy text of the printing<br>
+                <p class="ur-books-made_item-text books-item--text ">Lorem Ipsum is simply
+                    dummy text of the printing
                     and typesetting industry</p>
             </div>
   
         </div>
-        <picture><source srcset="img/how_books_are_made-icon.webp" type="image/webp"><img src="img/how_books_are_made-icon.png" alt="how_books_are_made-icon"></picture>
+        <img src="img/how_books_are_made-icon.png" alt="how_books_are_made-icon">
           <div class="our-books-made_item">
               <div class="our-books-made_sub-item">
                   <h4 class="our-books-made_item-Of-title">Step 2</h4>
-                  <p class="ur-books-made_item-text books-item--text ">Lorem Ipsum is simply <br>
-                      dummy text of the printing<br>
+                  <p class="ur-books-made_item-text books-item--text ">Lorem Ipsum is simply
+                      dummy text of the printing
                       and typesetting industry</p>
               </div>
               <div class="our-books-made_sub-item">
                   <h4 class="our-books-made_item-Of-title">Step 4</h4>
-                  <p class="ur-books-made_item-text books-item--text ">Lorem Ipsum is simply <br>
-                      dummy text of the printing<br>
+                  <p class="ur-books-made_item-text books-item--text ">Lorem Ipsum is simply
+                      dummy text of the printing
                       and typesetting industry</p>
               </div>
           </div>
@@ -286,7 +421,7 @@
     
     <div class="bestseller-slider-item_wrapper">
       <div class="bestseller-slider-item">
-        <picture><source srcset="img/image_bear.webp" type="image/webp"><img class="bestseller-item-icon" src="img/image_bear.png" alt="item"></picture>
+        <img class="bestseller-item-icon" src="img/image_bear.png" alt="item">
         <span class="seller-book--descr ">Jolly Baby - 6 pages Mini Quiet Book</span>
         <span class="seller-book-price">€39,99</span>
         <button class="seller-book_add-to-btn btn">Add to cart</button>
@@ -296,7 +431,7 @@
   
     <div class="bestseller-slider-item_wrapper">
       <div class="bestseller-slider-item">
-        <picture><source srcset="img/image_animals.webp" type="image/webp"><img class="bestseller-item-icon" src="img/image_animals.png" alt="item"></picture>
+        <img class="bestseller-item-icon" src="img/image_animals.png" alt="item">
         <span class="seller-book--descr ">Globetrotter - Quiet Book</span>
         <span class="seller-book-price">€79,99</span>
         <button class="seller-book_add-to-btn btn">Add to cart</button>
@@ -306,7 +441,7 @@
     
     <div class="bestseller-slider-item_wrapper">
       <div class="bestseller-slider-item">
-        <picture><source srcset="img/image_bee.webp" type="image/webp"><img class="bestseller-item-icon" src="img/image_bee.png" alt="item"></picture>
+        <img class="bestseller-item-icon" src="img/image_bee.png" alt="item">
         <span class="seller-book--descr ">Little Bee - 6 Pages Mini Quiet Book</span>
         <span class="seller-book-price">€39,99</span>
         <button class="seller-book_add-to-btn btn">Add to cart</button>
@@ -319,7 +454,7 @@
   
     <div class="bestseller-slider-item_wrapper">
       <div class="bestseller-slider-item">
-        <picture><source srcset="img/image_22.webp" type="image/webp"><img class="bestseller-item-icon" src="img/image_22.png" alt="item"></picture>
+        <img class="bestseller-item-icon" src="img/image_22.png" alt="item">
         <span class="seller-book--descr ">Jolly Baby - 6 pages Mini Quiet Book </span>
         <span class="seller-book-price">€39,99</span>
         <button class="seller-book_add-to-btn btn">Add to cart</button>
@@ -331,7 +466,7 @@
   
     <div class="bestseller-slider-item_wrapper" >
       <div class="bestseller-slider-item">
-        <picture><source srcset="img/image_bee.webp" type="image/webp"><img class="bestseller-item-icon" src="img/image_bee.png" alt="item"></picture>
+        <img class="bestseller-item-icon" src="img/image_bee.png" alt="item">
         <span class="seller-book--descr ">Little Bee - 6 Pages Mini Quiet Book</span>
         <span class="seller-book-price">€39,99</span>
         <button class="seller-book_add-to-btn btn">Add to cart</button>
@@ -403,19 +538,19 @@
         <div class="meet_our_team-slider-item" data-title="Meet the Jolly Family">
           <h1 class="meet_our_team-title">Meet the Jolly Family!</h1>
           <span class="meet_our_team-sub-title">About our story, values & mission</span>
-          <picture><source srcset="img/family.webp" type="image/webp"><img class="mOt-slider-img" src="img/family.png" alt="img"></picture>
+          <img class="mOt-slider-img" src="img/family.png" alt="img">
         </div>
   
         <div class="meet_our_team-slider-item" data-title="Meet the Team">
           <h1 class="meet_our_team-title">Meet the Team</h1>
           <span class="meet_our_team-sub-title">About our story, values & mission</span>
-          <picture><source srcset="img/family.webp" type="image/webp"><img class="mOt-slider-img" src="img/family.png" alt="img"></picture>
+          <img class="mOt-slider-img" src="img/family.png" alt="img">
         </div>
   
         <div class="meet_our_team-slider-item" data-title="Meet the Production">
           <h1 class="meet_our_team-title">Meet the Production Team</h1>
           <span class="meet_our_team-sub-title">About our story, values & mission</span>
-          <picture><source srcset="img/video.webp" type="image/webp"><img class="mOt-slider-img" src="img/video.png" alt="video"></picture>
+          <img class="mOt-slider-img" src="img/video.png" alt="video">
         </div>
         
       
@@ -430,7 +565,8 @@
       <button class="meet_our_team-learn_more-btn btn">learn more</button>
     </div>
   </div>
-        <div class="our_categories-bg">
+        <div class="categories-wrapper">
+            <div class="our_categories-bg">
     <div class="container">
       <div class="our_categories">
         <h1 class="our_categories-title">Our Categories</h1>
@@ -470,10 +606,11 @@
       </div>
     </div>
   </div>
+        </div>
         <div class="container">
     <div class="follow_us">
-      <img class="follow_us-dec1" src="img/follow-us-strings.svg" alt="dec1">
-      <img class="follow_us-dec2" src="img/follow-us-stars.svg" alt="dec2">
+      <img class="follow_us-dec1 decor-item" src="img/follow-us-strings.svg" alt="dec1">
+      <img class="follow_us-dec2 decor-item" src="img/follow-us-stars.svg" alt="dec2">
       <div class="follow_us-inner">
         <h1 class="follow_us-title">Follow us</h1>
         <h3 class="follow_us-of-title"> in our journey in helping children get to their full potential, one <br>
@@ -494,11 +631,6 @@
             <li class="follow_us-list-item"><a href="#" class="follow_us-list-link"><img src="img/image 18.png" alt="#"></a></li>
             <li class="follow_us-list-item"><a href="#" class="follow_us-list-link"><img src="img/image 17.png" alt="#"></a></li>
             <li class="follow_us-list-item"><a href="#" class="follow_us-list-link"><img src="img/image 20.png" alt="#"></a></li>
-          </ul>
-        </div>
-  
-        <div class="follow_us-slider-item">
-          <ul class="follow_us-list">
             <li class="follow_us-list-item"><a href="#" class="follow_us-list-link"><img src="img/image 11.png" alt="#"></a></li>
             <li class="follow_us-list-item"><a href="#" class="follow_us-list-link"><img src="img/image 13.png" alt="#"></a></li>
             <li class="follow_us-list-item"><a href="#" class="follow_us-list-link"><img src="img/image 19.png" alt="#"></a></li>
@@ -507,6 +639,7 @@
             <li class="follow_us-list-item"><a href="#" class="follow_us-list-link"><img src="img/image 20.png" alt="#"></a></li>
           </ul>
         </div>
+  
       </div>
   
     </div>
@@ -571,8 +704,8 @@
     <footer class="footer">
 	<div class="container">
 		<div class="footer-top">
-			<ul class="footer-top__inner">
-				<li class="footer-top__item">
+			<div class="footer-top__inner">
+				<div class="footer-top__item">
 					<h4 class="footer-top__title">JOLLY DESIGNS Ltd.</h4>
 					<p class="footer-top__content">Jolly Designs GmbH stands for unique,
 						magical and wonderful toys. Our products
@@ -581,44 +714,46 @@
 						nursery.We offer high quality, innovative
 						and responsible products for curious and<br>
 						imaginative little minds.</p>
-				</li>
-				<li class="footer-top__item">
-					<h4 class="footer-top__title">Information</h4>
-					<ul class="footer-top__content">
-						<li>Terms of use</li>
-						<li>Delivery</li>
-						<li>Privacy and data protection</li>
-						<li>Return</li>
-						<li>Cancellation policy</li>
-						<li>Imprint</li>
-						<li>Payment methods</li>
-						<li>General terms and conditions</li>
-						<li>Refund Policy</li>
-					</ul>
-				</li>
-				<li class="footer-top__item">
-					<h4 class="footer-top__title">About Us</h4>
-					<ul class="footer-top__content">
-						<li>Our History</li>
-						<li>About Us</li>
-						<li>Manufacturing Process</li>
-						<li>Trade Fairs</li>
-						<li>Quiet Books Blog</li>
-					</ul>
-				</li>
-				<li class="footer-top__item">
-					<h4 class="footer-top__title">Newsletter</h4>
-					<div class="footer-form">
-						<input type="text" placeholder="E-mail">
+				</div>
+				<div class="footer-top-inner__item">
+					<div class="footer-top__item">
+						<h4 class="footer-top__title">Information</h4>
+						<ul class="footer-top__content">
+							<li>Terms of use</li>
+							<li>Delivery</li>
+							<li>Privacy and data protection</li>
+							<li>Return</li>
+							<li>Cancellation policy</li>
+							<li>Imprint</li>
+							<li>Payment methods</li>
+							<li>General terms and conditions</li>
+							<li>Refund Policy</li>
+						</ul>
 					</div>
-					<button class="btn footer-btn" type="submit" ><span>Subscribe</span> </button>
-					<div class="footer-top--account__links">
-						<div class="create-link"><a href="#">Create account</a></div>
-						<div class="b2b-link"><a href="#">B2B Log-in</a></div>
-
+					<div class="footer-top__item">
+						<h4 class="footer-top__title">About Us</h4>
+						<ul class="footer-top__content">
+							<li>Our History</li>
+							<li>About Us</li>
+							<li>Manufacturing Process</li>
+							<li>Trade Fairs</li>
+							<li>Quiet Books Blog</li>
+						</ul>
 					</div>
-				</li>
-			</ul>
+					<div class="footer-top__item">
+						<h4 class="footer-top__title">Newsletter</h4>
+						<div class="footer-form">
+							<input type="text" placeholder="E-mail">
+						</div>
+						<button class="btn footer-btn" type="submit" ><span>Subscribe</span> </button>
+						<div class="footer-top--account__links">
+							<div class="create-link"><a href="#">Create account</a></div>
+							<div class="b2b-link"><a href="#">B2B Log-in</a></div>
+	
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="footer-bottom">
 			<div class="footer-payment--links">
@@ -627,7 +762,7 @@
 				<a class="payment--links---inner" href="#"><img src="img/gpay.svg" alt="payment-google-pay"</a>
 				<a class="payment--links---inner" href="#"><img src="img/klarna.svg" alt="payment-klarna"</a>
 				<a class="payment--links---inner" href="#"><img src="img/masterio.svg" alt="payment-masterio"</a>
-				<a class="payment--links---inner" href="#"><picture><source srcset="img/mastercard.webp" type="image/webp"><img src="img/mastercard.png" alt="payment-mastercard"</a></picture>
+				<a class="payment--links---inner" href="#"><img src="img/mastercard.png" alt="payment-mastercard"</a>
 				<a class="payment--links---inner" href="#"><img src="img/paypal.svg" alt="payment-paypal"</a>
 				<a class="payment--links---inner" href="#"><img src="img/opay.svg" alt="payment-opay"</a>
 				<a class="payment--links---inner" href="#"><img src="img/visa.svg" alt="payment-visa"</a>
@@ -648,10 +783,8 @@
 
 
 
-    <script src="https://kit.fontawesome.com/e50b17d262.js?_v=20221031191325" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js?_v=20221031191325"></script>
-    <script src="./js/modules/slick.min.js?_v=20221031191325"></script>
-    <script src="./js/modules/sliders.js?_v=20221031191325"></script>
-    <script src="./js/app.min.js?_v=20221031191325"></script>
+    <script src="https://kit.fontawesome.com/e50b17d262.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./js/app.min.js"></script>
 </body>
 </html>

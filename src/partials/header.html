@@ -1,10 +1,76 @@
 <header class="header">
     <div class="container">
-        <div class="header-wrapper">
+        <div id="myHeader" class="header-wrapper">
+            <div class="menu-icon">
+                <span></span>
+            </div>
+            <div class="mobile-menu">
+                <div class="mobile-head">
+                    <ul class="mobile-head-list">
+                        <li class="main-menu--item head-list-item"><a href="#"><img class="icon-icon-user main-header--icons" src="@img/user.svg" alt="icon-cart"></a></li>
+                        <li class="mobile-head-list-item head-list-item middle-item"><a href="tel:+4961729452910" class="mobile-list-link"><span class="icon"><img src="@img/phone.svg" alt="#"></span></a></li>
+                        <li class="mobile-head-list-item head-list-item">
+                            <div class="drop-down--choise">
+                                <ul class="lang-choise-menu">
+                                    <li><a class="lang-choise-item" href="#">EN</a></li>
+                                    <ul class="lang-sub--menu">
+                                        <li class="lang-sub--menu-item"><a class="lang-choise-item" href="#">FR</a></li>
+                                        <li class="lang-sub--menu-item"><a class="lang-choise-item" href="#">DE</a></li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobile-nav">
+                    <div class="mobule-nav-item">
+                        <button type="button" class="collapsible">Products <i class="fa-solid fa-caret-down"></i></button>
+                        <div class="content">
+                            <ul class="collapse-content">
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Quiet Books</a></li>
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Mini Quiet Books</a></li>
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Booklets</a></li>
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Wooden Toys</a></li>
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Wall decorations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobile-nav-item">
+                        Child Development
+                    </div>
+                    <div class="mobile-nav-item">
+                        What are Quiet Books
+                    </div>
+                    <div class="mobile-nav-item">
+                        Blog
+                    </div>
+                    <div class="mobule-nav-item">
+                        <button type="button" class="collapsible">About Us <i class="fa-solid fa-caret-down"></i></button>
+                        <div class="content">
+                            <ul class="collapse-content">
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">About Us 1</a></li>
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">About Us 2</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobule-nav-item">
+                        <button type="button" class="collapsible">Support <i class="fa-solid fa-caret-down"></i></button>
+                        <div class="content">
+                            <ul class="collapse-content">
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Support 1</a></li>
+                                <li class="collapse-content--item"><a class="collapse-content--link" href="#">Support 2</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobile-nav-item">
+                        Where to Find Us
+                    </div>
+                </div>
+            </div>
             <div class="header-main">
                 <div class="header-main--item">
                     <a href="tel: +49 61729452910" class="call" >
-                        <span class="icon"><img src="@img/phone.svg" alt=""></span>
+                        <span class="icon"><img src="@img/phone.svg" alt="#"></span>
                         <span class="phone-number"> +49 61729452910</span>
                     </a>
                     <div class="drop-down--choise">
@@ -17,20 +83,50 @@
                         </ul>
                     </div>
                 </div>
+                <div class="header-mobile-main-wrapper">
+                    <p class="main-menu--item">
+                        <a href="#">
+                            <img class="icon-icon-search main-header--icons" src="@img/search.svg" alt="icon-cart">
+                        </a>
+                    </p>
+                </div>
+                <div class="header-mobile-main-wrapper">
+                    <img src="@img/logo.png" alt="Jolly-design logo" class="logo">
+                </div>
                 <div class="header-main--item">
                     <img src="@img/logo.png" alt="Jolly-design logo" class="logo">
+                </div>
+                <div class="header-mobile-main-wrapper">
+                    <ul class="header-main-menu">
+                        <li class="main-menu--item"><div class="like-counter">
+                            <a href="#" class="header-choused-link">
+                                <img class="icon-heart main-header--icons" src="@img/empty-heart.svg" alt="icon-heart">
+                                <span class="like-counter--number">6</span>
+                            </a>
+                        </div></li>
+                        <li class="main-menu--item"><div class="like-counter">
+                            <a href="#" class="header-choused-link">
+                                <img class="icon-basket main-header--icons" src="@img/cart.svg" alt="icon-cart">
+                                <span class="like-counter--number">2</span>
+                            </a>
+                        </div></li>
+                    </ul>
                 </div>
                 <div class="header-main--item">
                     <ul class="header-main-menu">
                         <li class="main-menu--item"><a href="#"><img class="icon-icon-search main-header--icons" src="@img/search.svg" alt="icon-cart"></a></li>
                         <li class="main-menu--item"><a href="#"><img class="icon-icon-user main-header--icons" src="@img/user.svg" alt="icon-cart"></a></li>
                         <li class="main-menu--item"><div class="like-counter">
-                            <img class="icon-heart main-header--icons" src="@img/empty-heart.svg" alt="icon-heart">
-                            <span class="like-counter--number">6</span>
+                            <a href="#" class="header-choused-link">
+                                <img class="icon-heart main-header--icons" src="@img/empty-heart.svg" alt="icon-heart">
+                                <span class="like-counter--number">6</span>
+                            </a>
                         </div></li>
-                        <li class="main-menu--item"><div class="like-counter">  
-                            <img class="icon-basket main-header--icons" src="@img/cart.svg" alt="icon-cart">
-                            <span class="like-counter--number">2</span>
+                        <li class="main-menu--item"><div class="like-counter">
+                            <a href="#" class="header-choused-link">
+                                <img class="icon-basket main-header--icons" src="@img/cart.svg" alt="icon-cart">
+                                <span class="like-counter--number">2</span>
+                            </a>
                         </div></li>
                     </ul>
                 </div>

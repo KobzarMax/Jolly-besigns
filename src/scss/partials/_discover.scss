@@ -40,7 +40,7 @@
     padding-top: 223px;
     padding-bottom: 221px;
     gap: 24px;
-    background-image: url('../../img/Discover-block-slider-bg.png');
+    background-image: url('../img/Discover-block-slider-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -55,7 +55,7 @@
   }
 
   .discover-block-title::before {
-    content: url('../../img/title-decor.svg');
+    content: url('../img/title-decor.svg');
     position: absolute;
     left: -50px;
     top: -40px;
@@ -91,4 +91,77 @@
 
 .discover .container {
   max-width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .discover-block-title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .discover-block-title {
+    font-size: 48px;
+  }
+  .discover-block-title::before {
+    content: url('../img/title-decor.svg');
+    position: absolute;
+    left: -50px;
+    top: -30px;
+    z-index: 10;
+    transform: scale(0.7);
+  }
+  .discover-block--slider .slick-dots {
+    left: 43%;
+  }
+  .discover-block-inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 758px) {
+  .discover-block-title {
+    font-size: 36px;
+  }
+  .discover-block--slider .slick-dots {
+    left: 43%;
+  }
+  .discover-block-inner {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 530px) {
+  .discover-block-title {
+    font-size: 32px;
+    text-align: center;
+    width: fit-content;
+    line-height: 40px;
+  }
+  .discover-block-title::before {
+    content: url(../img/title-decor.svg);
+    position: absolute;
+    left: -10px;
+    top: -45px;
+    z-index: 10;
+    transform: scale(0.7);
+  }
+  .discover-block--slider .slick-dots {
+    left: 35%;
+  }
+  .discover-block-inner {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 372px) {
+  .discover-block-title::before {
+    display: none;
+  }
+  .discover-block-title {
+    font-size: 28px;
+  }
 }
