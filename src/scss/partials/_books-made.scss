@@ -26,3 +26,35 @@
   .our-books-made_sub-item {
     margin-bottom: 33px;
   }
+
+  @media (max-width: 992px) {
+    .our-books-made_title {
+      font-size: 48px;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .our-books-made_title {
+      font-size: 32px;
+    }
+  }
+
+  @media (max-width: 568px) {
+    .our-books-made_item {
+      flex-direction: column;
+      width: 100%;
+      & .our-books-made_sub-item {
+        width: 100%;
+      }
+      & .our-books-made_item-Of-title {
+        width: 100%;
+      }
+      & .ur-books-made_item-text {
+        width: 100%;
+      }
+      & .books-item--text {
+        max-width: 100%;
+      }
+    }
+  }

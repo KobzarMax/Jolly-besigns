@@ -12,7 +12,11 @@
 	display: flex;
 	justify-content: space-between;
 	padding: 5.5% 5.5% 4%;
-	border-bottom: 1px solid #F6ADAD ;
+	border-bottom: 1px solid #F6ADAD;
+}
+.footer-top-inner__item {
+	display: flex;
+	justify-content: space-between;
 }
 .footer-top__item {
 	width: 23.2%;
@@ -94,6 +98,56 @@ h4 {
 }
 
 .footer-top__title {
-color: #FFFFFF;
-text-align: start;
+	color: #FFFFFF;
+	text-align: start;
+}
+
+@media (max-width: 768px) {
+	.footer-top__inner {
+		flex-direction: column;
+	}
+	.footer-top__item {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.footer-top-inner__item {
+		gap: 30px;
+		flex-wrap: wrap;
+	}
+	.footer-bottom {
+		position: relative;
+		margin: 2.2% 30px 10.77%;
+		& .footer-Jolly--Designs {
+			position: absolute;
+			bottom: -50px;
+			left: 40%;
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.footer-bottom {
+		flex-direction: column-reverse;
+		gap: 8px;
+	}
+	.footer-bottom {
+		position: relative;
+		margin: 2.2% 30px 10.77%;
+		& .footer-Jolly--Designs {
+			position: absolute;
+			bottom: -50px;
+			left: 35%;
+		}
+	}
+}
+
+@media (max-width: 470px) {
+	.footer-bottom {
+		margin: 2.2% 30px 15.77%;
+		& .footer-Jolly--Designs {
+			position: absolute;
+			bottom: -50px;
+			left: 30%;
+		}
+	}
 }

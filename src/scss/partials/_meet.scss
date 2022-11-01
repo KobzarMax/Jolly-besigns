@@ -85,3 +85,78 @@
       cursor: pointer;
     }
   }
+
+  @media (max-width: 1200px) {
+    .mOt-slider-img {
+      max-width: 70%;
+    }
+    .meet_our_team {
+      & .slider-dots {
+        top: -720px;
+      }
+    }
+}  
+
+@media (max-width: 992px) {
+  .meet_our_team {
+    & .slider-dots {
+      top: -620px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .meet_our_team-title {
+    font-size: 48px;
+  }
+  .meet_our_team {
+    & .slider-dots {
+      top: -520px;
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .meet_our_team-slider {
+    & .slider-dots {
+      justify-content: center;
+      gap: 20px;
+      & li {
+        & .dots__item {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .meet_our_team-title {
+    margin-top: 150px;
+    font-size: 32px;
+  }
+  .mOt-slider-img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 470px) {
+  .meet_our_team {
+    & .slider-dots {
+      top: -420px;
+    }
+  }
+}
+
+@media (max-width: 372px) {
+  .meet_our_team-title {
+    margin: 150px auto 24px;
+    width: fit-content;
+  }
+  .meet_our_team {
+    & .slider-dots {
+      top: -420px;
+    }
+  }
+  .meet_our_team-learn_more-btn {
+    margin-left: 19.38%;
+  } 
+}

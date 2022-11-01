@@ -18,14 +18,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    & img {
+      max-width: 20%;
+    }
   }
   .miniQs {
     margin-left: calc(63/1280*100%);
   }
   
-  .retailer_stores-block--slider{
-    //display: none;
-  }
   .retailer_stores-block--slider .draggable  {
     margin-bottom: 80px;
   }
@@ -57,3 +57,9 @@
   .retailer_stores-block--slider .slick-dots button {
     visibility: hidden;
   }
+
+@media (max-width: 768px) {
+  .retailer-stores--wrapper {
+    display: none;
+  }
+}
